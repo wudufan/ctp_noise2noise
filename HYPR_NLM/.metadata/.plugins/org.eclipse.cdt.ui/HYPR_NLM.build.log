@@ -1,0 +1,17 @@
+14:00:26 **** Incremental Build of configuration Release for project HYPR_NLM ****
+Info: Configuration "Release" uses tool-chain "CUDA Toolkit 9.2" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../TIPS.cu
+Invoking: NVCC Compiler
+/cm/shared/apps/cuda92/toolkit/9.2.88/bin/nvcc -O3 -Xcompiler -fPIC -gencode arch=compute_61,code=sm_61 -gencode arch=compute_70,code=sm_70  -odir "." -M -o "TIPS.d" "../TIPS.cu"
+/cm/shared/apps/cuda92/toolkit/9.2.88/bin/nvcc -O3 -Xcompiler -fPIC --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_70,code=compute_70 -gencode arch=compute_61,code=sm_61 -gencode arch=compute_70,code=sm_70  -x cu -o  "TIPS.o" "../TIPS.cu"
+Finished building: ../TIPS.cu
+ 
+Building target: libHYPR_NLM.so
+Invoking: NVCC Linker
+/cm/shared/apps/cuda92/toolkit/9.2.88/bin/nvcc --cudart static -shared --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_70,code=compute_70 -gencode arch=compute_61,code=sm_61 -gencode arch=compute_70,code=sm_70 -link -o  "libHYPR_NLM.so"  ./HYPR_NLM.o ./TIPS.o   
+Finished building target: libHYPR_NLM.so
+ 
+
+14:00:29 Build Finished (took 3s.17ms)
+

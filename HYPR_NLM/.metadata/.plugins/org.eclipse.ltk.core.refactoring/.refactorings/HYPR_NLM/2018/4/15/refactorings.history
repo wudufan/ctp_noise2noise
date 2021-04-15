@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HYPR_NLM/HYR_NLM.cu&apos; to &apos;HYPR_NLM.cu&apos;" description="Rename resource &apos;HYR_NLM.cu&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="HYR_NLM.cu" name="HYPR_NLM.cu" stamp="1523282910582" updateReferences="true"/>
+</session>
