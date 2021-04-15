@@ -1,4 +1,4 @@
-# Temporal Repository for Noise2Noise-based CTP Denoising
+# Temporary Repository for Noise2Noise-based CTP Denoising
 This is the relevant code for the paper <br>
 Wu, D., Ren, H. and Li, Q., 2020. Self-supervised dynamic ct perfusion image denoising with deep neural networks. IEEE Transactions on Radiation and Plasma Medical Sciences.
 
